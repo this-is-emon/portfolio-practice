@@ -1,3 +1,38 @@
 * {
   margin: 0;
 }
+
+// <weight>: Use a value from 300 to 800
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* nav styling -- skeleton */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 230px;
+  align-items: center;
+  /* margin: 0 200px; */
+}
+
+nav ul {
+  display: flex;
+  gap: 40px; // not
+  list-style: none; //not
+  padding: 0; //not
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
