@@ -36,3 +36,39 @@ nav ul li a {
   text-decoration: none;
   color: inherit;
 }
+
+/* Setting background image in 'header' section */
+.header {
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  /* background-size: cover; */
+}
+/* nav style part-2 */
+.nav-title {
+  font-size: 45px;
+  color: #181818;
+  font-weight: 800;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.list-element {
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn-primary {
+  background: #fd6e0a;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* width: 130px;
+  height: 44px; */
+}
