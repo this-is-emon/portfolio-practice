@@ -22,14 +22,12 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 40px; // not
-  list-style: none; //not
-  padding: 0; //not
   align-items: center;
 }
 
 nav ul li {
   list-style: none;
+  margin-left: 50px;
 }
 
 nav ul li a {
