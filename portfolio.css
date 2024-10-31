@@ -110,3 +110,26 @@ nav ul li a {
   width: 584px;
   height: 676px;
 }
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+/* main section skeleton */
+.main {
+  max-width: 1140px;
+  margin: 130px auto;
+}
+/* about skeleton */
+.about {
+  padding: 200px 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.about-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
