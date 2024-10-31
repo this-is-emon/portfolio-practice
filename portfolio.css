@@ -101,6 +101,7 @@ nav ul li a {
 
 .banner-description {
   color: #757575;
+  font-family: "Open Sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
@@ -121,7 +122,7 @@ nav ul li a {
 }
 /* about skeleton */
 .about {
-  padding: 200px 150px;
+  padding: 150px 100px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -132,4 +133,34 @@ nav ul li a {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+/* about ornamentation */
+.about-title {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-weight: 700;
+}
+.about-description {
+  width: 827px;
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.info-tile {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.info-value {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
