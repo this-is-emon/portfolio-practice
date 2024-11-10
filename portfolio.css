@@ -283,7 +283,7 @@ hr {
 /* footer styling - skeleton */
 footer {
   background: #fff8f3;
-  padding: 130px 230px;
+  padding: 130px 200px;
   display: flex;
   gap: 130px;
 }
@@ -298,5 +298,38 @@ footer {
 .message {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+/* footer styling - ornamentation */
+.connect-title,
+.message-title {
+  color: #181818;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 35px;
+  /* font-style: normal; */
+  font-weight: 700;
+  /* line-height: normal; */
+}
+.name-input,
+.email-input {
+  border-radius: 5px;
+  border: none;
+  background: var(--White-Color, #fff);
+  width: 461px;
+  height: 34px;
+  /* flex-shrink: 0; */
+}
+.message-input {
+  border-radius: 5px;
+  border: none;
+  background: var(--White-Color, #fff);
+  width: 461px;
+  height: 100px;
+  /* flex-shrink: 0; */
+}
+.connect-icons {
+  display: flex;
   gap: 20px;
 }
