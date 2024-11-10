@@ -222,3 +222,66 @@ nav ul li a {
   line-height: 28px; /* 175% */
 }
 
+/* resume section styling */
+.resume {
+  margin-top: 130px;
+  text-align: center;
+}
+.resume-title {
+  color: #181818;
+  /* text-align: center; */
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-weight: 700;
+}
+.resume-itmes {
+  margin-top: 110px;
+  display: flex;
+}
+.resume-items-container {
+  text-align: left;
+  margin: 20px;
+}
+.items-title {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.edu-title,
+.exp-title {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.edu-school,
+.exp-company-name {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.edu-description,
+.exp-description {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 20px;
+}
+hr {
+  width: 558px;
+  height: 1px;
+  background: #d1d1d1;
+}
+
+.edu-item,
+.exp-item {
+  /* margin-right: 30px; */
+  /* padding: 20px; */
+}
