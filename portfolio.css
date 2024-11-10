@@ -280,8 +280,23 @@ hr {
   background: #d1d1d1;
 }
 
-.edu-item,
-.exp-item {
-  /* margin-right: 30px; */
-  /* padding: 20px; */
+/* footer styling - skeleton */
+footer {
+  background: #fff8f3;
+  padding: 130px 230px;
+  display: flex;
+  gap: 130px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connect,
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
